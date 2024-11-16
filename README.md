@@ -12,17 +12,17 @@ Uses Win10 WinAPI (0x0A00) - dxva2, user32.
 
 Usage: brightness.exe (increment percentage between -100 to 100)
 
-Increase brighness example: brightness.exe 10
-Decrease brighness example: brightness.exe -10
+* Increase brighness example: brightness.exe 10
+* Decrease brighness example: brightness.exe -10
 
 ## Setting up Windows shortcuts
 
-Create win shortcuts with predefined values to increase and decrease brightness.
+Create desktop shortcuts with predefined values to increase and decrease brightness.
 
 ![shortcut](img/shortcut1.png "Add shorcuts")
 
-Add shorcuts to taskbar into first and second position after logo.
+Add shorcuts to taskbar and move into the first and second position after windows logo.
 
 ![shortcut](img/shortcut2.png "Taskbar shortcut")
 
-Use shorcut keys <kbd>![Windows Key][newwinlogo]</kbd>+<kbd>1</kbd> and <kbd>![Windows Key][newwinlogo]</kbd>+<kbd>1</kbd> to adjust brightness.
+Use keyboard shorcut keys <kbd>Windows Key</kbd>+<kbd>1</kbd> and <kbd>Windows Key</kbd>+<kbd>1</kbd> to adjust brightness.
