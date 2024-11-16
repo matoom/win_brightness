@@ -4,7 +4,7 @@ Simple app that uses WinAPI to adjust monitor brighness with HDR (relative brigh
 
 The physical monitor configuration functions to adjust brightness work using the VESA Monitor Control Command Set (MCCS) standard over an I2C interface. Many monitors don't fully implement that standard. 
 
-> ! It is not recommend using these functions for arbitrary monitors without validating the aformentioned standards are supported.
+> [!NOTE] It is not recommend using these functions for arbitrary monitors without validating the aformentioned standards are supported.
 
 Uses Win10 WinAPI (0x0A00) - dxva2, user32.
 
@@ -19,10 +19,10 @@ Usage: brightness.exe (increment percentage between -100 to 100)
 
 Create desktop shortcuts with predefined values to increase and decrease brightness.
 
-![shortcut](img/shortcut1.png "Add shorcuts")
+<img src="img/shortcut1.png" alt="Add shortcuts" width="350"/>
 
-Add shorcuts to taskbar and move into the first and second position after windows logo.
+Add shorcuts to into windows taskbar first and second position after windows logo.
 
-![shortcut](img/shortcut2.png "Taskbar shortcut")
+<img src="img/shortcut2.png" alt="Taskbar shortcuts" width="150"/>
 
-Use keyboard shorcut keys <kbd>Windows Key</kbd>+<kbd>1</kbd> and <kbd>Windows Key</kbd>+<kbd>1</kbd> to adjust brightness.
+Use keyboard shorcut keys <kbd>Windows Key</kbd>+<kbd>1</kbd> and <kbd>Windows Key</kbd>+<kbd>2</kbd> to adjust brightness.
