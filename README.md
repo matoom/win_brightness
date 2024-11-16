@@ -4,7 +4,8 @@ Simple app that uses WinAPI to adjust monitor brighness with HDR (relative brigh
 
 The physical monitor configuration functions to adjust brightness work using the VESA Monitor Control Command Set (MCCS) standard over an I2C interface. Many monitors don't fully implement that standard. 
 
-> [!NOTE] It is not recommend using these functions for arbitrary monitors without validating the aformentioned standards are supported.
+> [!WARNING]
+> It is not recommend using these functions for arbitrary monitors without validating the aformentioned standards are supported.
 
 Uses Win10 WinAPI (0x0A00) - dxva2, user32.
 
